@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Password Vault Pro — Private password manager for Chrome</title>
+  <meta name="description" content="Password Vault Pro is a zero-knowledge password manager for Google Chrome with encrypted sync to your own Google Drive." />
+  <link rel="icon" href="icon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="wrap brand"><img src="icon.png" alt="" width="36" height="36" /> <span>Password Vault Pro</span></div>
+  </header>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Your passwords. Encrypted. In your own Google Drive.</h1>
+      <p>Password Vault Pro is a zero-knowledge password manager for Google Chrome. Everything is encrypted on your device with your master password before it is synced to a hidden folder in your own Google Drive. There is no server and no account with us.</p>
+    </section>
+    <section class="grid">
+      <div class="card"><h3>Zero-knowledge</h3><p>AES-256-GCM encryption with a key derived from your master password (PBKDF2-SHA256, 600,000 rounds). Nobody else can read your data.</p></div>
+      <div class="card"><h3>Your own Google Drive</h3><p>An encrypted copy is stored in the hidden app data folder of your Google Drive, with daily backups. The extension cannot see any of your other files.</p></div>
+      <div class="card"><h3>Autofill &amp; save</h3><p>Fill logins on the right websites only, save new passwords, generate strong ones and keep 2FA codes in one place.</p></div>
+      <div class="card"><h3>Recovery key</h3><p>A personal recovery key lets you regain access if you ever forget your master password.</p></div>
+    </section>
+    <section>
+      <h2>Google permissions</h2>
+      <ul>
+        <li><code>drive.appdata</code> — store and read the extension's own encrypted vault file in your Drive's hidden app data folder.</li>
+        <li><code>userinfo.email</code> — show which Google account your vault is synced with.</li>
+      </ul>
+      <p>Read the full <a href="privacy.html">Privacy Policy</a>.</p>
+    </section>
+  </main>
+  <footer class="wrap">© 2026 Password Vault Pro · <a href="privacy.html">Privacy Policy</a> · Contact: <a href="mailto:angrycreation@gmail.com">angrycreation@gmail.com</a></footer>
+</body>
+</html>
